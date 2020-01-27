@@ -31,8 +31,8 @@
         </dependency>
     </dependencies>
     <build>
-        <sourceDirectory>src/main</sourceDirectory>
-        <testSourceDirectory>src/test</testSourceDirectory>
+        <sourceDirectory>src/*/src</sourceDirectory>
+        <testSourceDirectory>src/*/tests</testSourceDirectory>
         <plugins>
             <plugin>
                 <groupId>org.scala-tools</groupId>
